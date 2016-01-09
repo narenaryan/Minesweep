@@ -1,6 +1,10 @@
 # Minesweep
 A Minesweep algorithm implemented in Python that converts a given minesweep field configuration into Minesweep safety parameter matrix. This is a solution to problem given in PROGRAMMING CHALLENGES (Steven S. Skiena Miguel, A. Revilla) in page 16.
 
+### Usage
+
+![Usage tag](https://github.com/narenaryan/Minesweep/blob/master/usage.png)
+
 ### 1.6.2, Minesweeper
 
 Have you ever played Minesweeper? This cute little game comes with a certain op-
