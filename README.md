@@ -53,4 +53,4 @@ be an empty line between field outputs.
       Field #2:
       **100
       33200
-1*100
+      1*100
