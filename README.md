@@ -1,5 +1,5 @@
 # Minesweep
-A Minesweep algorithm that converts a given configuration into Minesweep safety matrix
+A Minesweep algorithm implemented in Python that converts a given minesweep field configuration into Minesweep safety parameter matrix. This is a solution to problem given in PROGRAMMING CHALLENGES (Steven S. Skiena Miguel, A. Revilla) in page 16.
 
 ### 1.6.2, Minesweeper
 
@@ -25,9 +25,32 @@ Safe squares are denoted by “.” and mine squares by “*,” both without th
 The first field line where n = m = 0 represents the end of input and should not be
 processed.
 
+### Sample Input 
+      4 4
+      *...
+      ....
+      .*..
+      ....
+      3 5
+      **...
+      .....
+      .*...
+      0 0
+
 ### Output
 For each field, print the message Field #x: on a line alone, where x stands for the
 number of the field starting from 1. The next n lines should contain the field with the
 “.” characters replaced by the number of mines adjacent to that square. There must
 be an empty line between field outputs.
 
+### Sample Output
+      Field #1:
+      *100
+      2210
+      1*10
+      1110
+      
+      Field #2:
+      **100
+      33200
+1*100
