@@ -8,8 +8,7 @@ with open(sys.argv[1]) as f:
     # Break Input into lines;
     lines = f.readlines()
     counter,field_count = 0,0
-    # Read the first line to determine Mine field length and width
-    # Now process the minefield
+    # Process Fields in the Input. When you see a 0,0 field then Exit.
     while int(lines[counter].split()[0]) != 0:
         field_count += 1
         init_line = lines[counter].split()
